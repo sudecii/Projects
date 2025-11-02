@@ -1,0 +1,23 @@
+# Основные библиотеки
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+
+# Машинное обучение
+scikit-learn==1.6.1
+lightgbm==4.3.0
+xgboost==2.1.1
+catboost==1.2.7
+
+# Визуализация
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+
+# Веб-сервер
+Flask==3.0.3
+
+# Служебные
+joblib==1.4.2
+requests==2.32.3
+gunicorn==21.2.0
