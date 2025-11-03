@@ -1,0 +1,42 @@
+# ==== macOS ====
+.DS_Store
+Icon
+.Icon?
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+logs/
+
+# ==== Virtual envs ====
+venv/
+.venv/
+env/
+.env/
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+
+# ==== IDE ====
+.vscode/
+.idea/
+
+# ==== Build / dist ====
+build/
+dist/
+
+# ==== Coverage / lint ====
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ==== Docker (локальные артефакты) ====
+**/.dockerignore
