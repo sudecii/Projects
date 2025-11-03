@@ -1,9 +1,8 @@
-# ==== macOS ====
+# macOS system files
 .DS_Store
-Icon
-.Icon?
+Icon?
 
-# ==== Python ====
+#  Python 
 __pycache__/
 *.py[cod]
 *.pyo
@@ -14,29 +13,29 @@ __pycache__/
 *.log
 logs/
 
-# ==== Virtual envs ====
+#  Virtual envs 
 venv/
 .venv/
 env/
 .env/
 
-# ==== Jupyter ====
+#  Jupyter 
 .ipynb_checkpoints/
 
-# ==== IDE ====
+#  IDE 
 .vscode/
 .idea/
 
-# ==== Build / dist ====
+#  Build / dist 
 build/
 dist/
 
-# ==== Coverage / lint ====
+# Coverage / lint 
 .coverage
 htmlcov/
 .mypy_cache/
 .ruff_cache/
 .pytest_cache/
 
-# ==== Docker (локальные артефакты) ====
+#  Docker (локальные артефакты) 
 **/.dockerignore
