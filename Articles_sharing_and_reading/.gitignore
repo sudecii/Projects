@@ -1,0 +1,32 @@
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+surprise-env/
+
+# --- Data ---
+data/
+*.csv
+*.npy
+*.pkl
+*.pickle
+*.json
+*.db
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_convert
+*.nbconvert
+*.log
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- System files ---
+.DS_Store
+
+# --- VSCode ---
+.vscode/
