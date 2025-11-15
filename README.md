@@ -16,12 +16,12 @@
 
 ## 🏆 Дипломный проект
 
-### 🏡 [Housing_Price_Prediction](./housing_price_prediction)
+### 🏡 [Housing_Price_Prediction](./housing-price-prediction)
 
 💻 **Микросервис для предсказания стоимости жилья в США** на основе ансамблевых моделей (`StackingRegressor`, `RandomForest`, `LightGBM`).  
 Реализован REST API на Flask и контейнеризирован с помощью Docker.  
 
-- 📁 **Папка проекта:** `housing_price_prediction`  
+- 📁 **Папка проекта:** `housing-price-prediction`  
 - ⚙️ **Состав:** `app/`, `artifacts/`, `src/`, `Dockerfile`, `requirements.txt`, `README.md`  
 - 🧠 **Навыки:** Flask API, Docker, ML-модели, Stacking, LightGBM, RandomForest, предобработка данных, деплой моделей  
 
@@ -30,11 +30,11 @@
 
 ## 🧩 Проекты
 
-### 👥 [Segmentation_Clients](./Segmentation_clients)
+### 👥 [Segmentation_Clients](./Segmentation-clients)
 
 📊 **Проект по сегментации клиентов онлайн-магазина подарков** с использованием RFM-анализа и методов кластеризации.  
 
-- 📁 **Папка проекта:** `Segmentation_clients`  
+- 📁 **Папка проекта:** `Segmentation-clients`  
 - ⚙️ **Состав:** ноутбук, папка `data`, `README.md` с описанием проекта  
 - 🧠 **Навыки:** анализ данных, RFM-анализ, кластеризация, визуализация, Python, pandas, seaborn  
 
@@ -42,7 +42,7 @@
 
 ---
 
-### 🏦 [Bank_Deposit_Prediction](./bank_deposit_prediction)
+### 🏦 [Bank_Deposit_Prediction](./bank-deposit-prediction)
 
 📈 **Проект по предсказанию подписки клиента на банковский депозит** по данным маркетинговых кампаний.  
 Решается задача бинарной классификации: определение вероятности открытия депозита после маркетингового звонка.
@@ -69,12 +69,12 @@
 
 ---
 
-### 🚕 [NY_Taxi_Trip_Duration](./NY_Taxi_Trip_Duration)
+### 🚕 [NY_Taxi_Trip_Duration](./NY-Taxi-Trip-Duration)
 
 🗽 **Проект по прогнозированию длительности поездок такси в Нью-Йорке.**  
 Задача — предсказать время поездки на основе данных о точках отправления и прибытия, времени, погодных условий и других факторов.  
 
-- 📁 **Папка проекта:** `NY_Taxi_Trip_Duration`  
+- 📁 **Папка проекта:** `NY-Taxi-Trip-Duration`  
 - ⚙️ **Состав:** Jupyter Notebook, `requirements.txt`, `README.md`  
 - 🧠 **Навыки:** анализ данных, визуализация, работа с геолокацией (`geopy`, `haversine`), фичеинжиниринг, градиентные бустинги (`XGBoost`, `LightGBM`)  
 - 📊 **Результаты:** модель демонстрирует хорошее качество прогноза времени поездки, позволяя оценивать транспортную эффективность и предсказывать загруженность маршрутов  
@@ -133,12 +133,12 @@
 
 ---
 
-### 📰 [Articles_Sharing_and_Reading](./Articles_sharing_and_reading)
+### 📰 [Articles_Sharing_and_Reading](./Articles-sharing-and-reading)
 
 📚 **Два рекомендательных алгоритма для платформы обмена и чтения статей.**  
 В проекте реализованы **персональные рекомендации (SVD)** и **популярностная модель**, позволяющие сравнить подходы и оценить качество рекомендаций.
 
-- 📁 **Папка проекта:** `Articles_sharing_and_reading`
+- 📁 **Папка проекта:** `Articles-sharing-and-reading`
 - ⚙️ **Состав:**
   - `personalized_recommender.ipynb` — модель персональных рекомендаций (Surprise SVD)  
   - `popularity_recommender.ipynb` — baseline модель рекомендаций по популярности  
