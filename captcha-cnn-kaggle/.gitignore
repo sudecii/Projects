@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Kaggle dataset (нельзя выкладывать)
+data/
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# VSCode configs
+.vscode/
+
+# Logs
+*.log
+
+# Submission files
+submission.csv
