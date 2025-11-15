@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MacOS files
+.DS_Store
+
+# Model artifacts (если будут)
+*.joblib
+*.pkl
+
+# Large datasets
+data/
+*.csv
+*.xlsx
+
+# Logs
+*.log

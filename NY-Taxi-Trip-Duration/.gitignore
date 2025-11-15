@@ -1,0 +1,37 @@
+# macOS system files
+.DS_Store
+Icon?
+
+# Python cache and temp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+
+# Jupyter notebooks autosave
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+taxi_env/
+
+# IDE configs
+.vscode/
+.idea/
+
+# Project data (Kaggle or large datasets)
+data/
+datasets/
+*.csv
+
+# Build / dist
+build/
+dist/
+*.egg-info
+.cache/

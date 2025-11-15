@@ -39,3 +39,11 @@ htmlcov/
 
 #  Docker (локальные артефакты) 
 **/.dockerignore
+
+# Virtual environments inside project subfolders
+*/venv/
+*/env/
+*/.venv/
+*/.env/
+*/taxi_env/
+*/surprise-env/
