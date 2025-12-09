@@ -1,0 +1,23 @@
+# виртуальное окружение
+venv/
+.env/
+
+# мусор питона
+__pycache__/
+*.pyc
+*.pyo
+
+# ноутбуки и их служебные
+.ipynb_checkpoints/
+
+# данные и логи обучения
+data/
+catboost_info/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# docker артефакты
+*.log
