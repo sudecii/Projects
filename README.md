@@ -26,6 +26,8 @@
 - ⚙️ **Состав:** `app/`, `artifacts/`, `src/`, `Dockerfile`, `requirements.txt`, `README.md`  
 - 🧠 **Навыки:** Flask API, Docker, ML-модели, Stacking, LightGBM, RandomForest, предобработка данных, деплой моделей  
 
+---
+
 ### 👥 [Segmentation_Clients](./Segmentation-clients)
 
 📊 **Проект по сегментации клиентов онлайн-магазина подарков** с использованием RFM-анализа и методов кластеризации.  
