@@ -26,6 +26,28 @@
 
 ---
 
+## 💳 Credit Scoring — ML Pipeline + FastAPI Service  
+**TL;DR:** Полноценный ML-pipeline + FastAPI-сервис для расчёта вероятности дефолта.  
+
+### 🎯 Бизнес-задача  
+Автоматизация принятия решений и оценка рисков:  
+- скоринг заявок,  
+- выделение клиентов высокого риска,  
+- ускорение рассмотрения.  
+
+**Ценность:** стандартизация и повышение качества решений.
+
+### 📊 Метрики  
+- ROC-AUC: **0.73**  
+- Оптимальный порог: **0.1054**
+
+### 🧠 Стек & навыки  
+LightGBM, Feature engineering, Pipeline, FastAPI, Docker.
+
+📁 Папка: [Credit-scoring](./Credit-scoring)
+
+---
+
 ## 🏡 Housing Price Prediction — ML Microservice  
 **TL;DR:** Микросервис на Flask + Docker, предсказывающий стоимость недвижимости с помощью ансамблей (LightGBM, RF, Stacking).  
 
@@ -80,28 +102,6 @@ RFM, KMeans, визуализация, pandas, seaborn.
 Работа с дисбалансом, One-Hot Encoding, Boosting, F1-оптимизация.
 
 📁 Папка: [bank-deposit-prediction](./bank-deposit-prediction)
-
----
-
-## 💳 Credit Scoring — ML Pipeline + FastAPI Service  
-**TL;DR:** Полноценный ML-pipeline + FastAPI-сервис для расчёта вероятности дефолта.  
-
-### 🎯 Бизнес-задача  
-Автоматизация принятия решений и оценка рисков:  
-- скоринг заявок,  
-- выделение клиентов высокого риска,  
-- ускорение рассмотрения.  
-
-**Ценность:** стандартизация и повышение качества решений.
-
-### 📊 Метрики  
-- ROC-AUC: **0.73**  
-- Оптимальный порог: **0.1054**
-
-### 🧠 Стек & навыки  
-LightGBM, Feature engineering, Pipeline, FastAPI, Docker.
-
-📁 Папка: [Credit-scoring](./Credit-scoring)
 
 ---
 
